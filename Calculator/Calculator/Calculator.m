@@ -15,30 +15,30 @@
     c.accumulator = [[NSDecimalNumber alloc] initWithDouble:0];
     return c;
 }
--(NSDecimalNumber *) add:(NSDecimalNumber *)number{
-    self.accumulator = [self.accumulator decimalNumberByAdding:number];
-    return self.accumulator;
+- (float) add: (float) number{
+    self.accumulator = [self.accumulator decimalNumberByAdding:[[NSDecimalNumber alloc] initWithFloat:number] ];
+    return [self.accumulator floatValue];
 }
 
--(NSDecimalNumber *) subtract:(NSDecimalNumber *)number{
-    self.accumulator = [self.accumulator decimalNumberBySubtracting:number];
-    return self.accumulator;
+- (float) subtract: (float) number{
+    self.accumulator = [self.accumulator decimalNumberBySubtracting:[[NSDecimalNumber alloc] initWithFloat:number] ];
+    return [self.accumulator floatValue];
 }
 
--(NSDecimalNumber *) multiply:(NSDecimalNumber *)number{
-    self.accumulator = [self.accumulator decimalNumberByMultiplyingBy:number];
-    return self.accumulator;
+- (float) multiply: (float) number{
+    self.accumulator = [self.accumulator decimalNumberByMultiplyingBy:[[NSDecimalNumber alloc] initWithFloat:number] ];
+    return [self.accumulator floatValue];
 }
 
--(NSDecimalNumber *) divide:(NSDecimalNumber *)number{
-    self.accumulator = [self.accumulator decimalNumberByDividingBy:number];
-    return self.accumulator;
+- (float) divide: (float) number{
+    self.accumulator = [self.accumulator decimalNumberByDividingBy:[[NSDecimalNumber alloc] initWithFloat:number] ];
+    return [self.accumulator floatValue];
 }
 
 
--(NSDecimalNumber *) raiseToPower:(NSDecimalNumber *)number{
-    self.accumulator = [self.accumulator decimalNumberByRaisingToPower:[number longValue]];
-    return self.accumulator;
+- (float)raiseToPower: (float) number{
+    self.accumulator = [self.accumulator decimalNumberByRaisingToPower:(unsigned long) number];
+    return [self.accumulator floatValue];
 }
 
 @end

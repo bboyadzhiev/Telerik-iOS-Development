@@ -13,10 +13,10 @@
 @property (nonatomic, strong) NSDecimalNumber *accumulator;
 
 -(Calculator *) initself;
--(NSDecimalNumber *) add: (NSDecimalNumber *) number;
--(NSDecimalNumber *) subtract: (NSDecimalNumber *) number;
--(NSDecimalNumber *) multiply: (NSDecimalNumber *) number;
--(NSDecimalNumber *) divide: (NSDecimalNumber *) number;
--(NSDecimalNumber *) raiseToPower:(NSDecimalNumber *)number;
+-(float) add: (float) number;
+-(float) subtract: (float) number;
+-(float) multiply: (float)number;
+-(float) divide: (float) number;
+-(float) raiseToPower: (float) number;
 
 @end
