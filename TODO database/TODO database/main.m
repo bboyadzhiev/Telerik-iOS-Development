@@ -23,7 +23,6 @@ int main(int argc, const char * argv[]) {
         TODO *t2 = [TODO  createTodoWithContent: @"Second TODO"
                              andExpirationDate: [NSDate dateWithString: @"2014-03-24 10:45:32 +0600"]];
         
-        
         [storage addTodo:t1];
         [storage addTodo:t2];
         
