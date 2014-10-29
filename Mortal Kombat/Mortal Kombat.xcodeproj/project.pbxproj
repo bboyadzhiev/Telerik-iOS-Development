@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845639A71A00E2B5009FAA0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845639A61A00E2B5009FAA0B /* main.m */; };
+		845639AF1A00E310009FAA0B /* Fighter.m in Sources */ = {isa = PBXBuildFile; fileRef = 845639AE1A00E310009FAA0B /* Fighter.m */; };
+		845639B21A00E6A9009FAA0B /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 845639B11A00E6A9009FAA0B /* Character.m */; };
+		846F57121A01101600EB245C /* Skill.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F57111A01101600EB245C /* Skill.m */; };
+		846F57201A01636B00EB245C /* Physical.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F571F1A01636B00EB245C /* Physical.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		845639A11A00E2B5009FAA0B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		845639A31A00E2B5009FAA0B /* Mortal Kombat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Mortal Kombat"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845639A61A00E2B5009FAA0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		845639AD1A00E310009FAA0B /* Fighter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fighter.h; sourceTree = "<group>"; };
+		845639AE1A00E310009FAA0B /* Fighter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fighter.m; sourceTree = "<group>"; };
+		845639B01A00E6A9009FAA0B /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		845639B11A00E6A9009FAA0B /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		845639BC1A00F2B6009FAA0B /* Skill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Skill.h; sourceTree = "<group>"; };
+		845639BD1A00F8B0009FAA0B /* FightingAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FightingAction.h; sourceTree = "<group>"; };
+		846F57111A01101600EB245C /* Skill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skill.m; sourceTree = "<group>"; };
+		846F571C1A015E8900EB245C /* SkillAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkillAction.h; sourceTree = "<group>"; };
+		846F571D1A015F4100EB245C /* PhysicalAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhysicalAction.h; sourceTree = "<group>"; };
+		846F571E1A01636B00EB245C /* Physical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Physical.h; sourceTree = "<group>"; };
+		846F571F1A01636B00EB245C /* Physical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Physical.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845639A01A00E2B5009FAA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8456399A1A00E2B5009FAA0B = {
+			isa = PBXGroup;
+			children = (
+				845639A51A00E2B5009FAA0B /* Mortal Kombat */,
+				845639A41A00E2B5009FAA0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845639A41A00E2B5009FAA0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845639A31A00E2B5009FAA0B /* Mortal Kombat */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845639A51A00E2B5009FAA0B /* Mortal Kombat */ = {
+			isa = PBXGroup;
+			children = (
+				845639B51A00E8B0009FAA0B /* FightingEngine */,
+				845639A61A00E2B5009FAA0B /* main.m */,
+				845639AD1A00E310009FAA0B /* Fighter.h */,
+				845639AE1A00E310009FAA0B /* Fighter.m */,
+				845639B01A00E6A9009FAA0B /* Character.h */,
+				845639B11A00E6A9009FAA0B /* Character.m */,
+			);
+			path = "Mortal Kombat";
+			sourceTree = "<group>";
+		};
+		845639B51A00E8B0009FAA0B /* FightingEngine */ = {
+			isa = PBXGroup;
+			children = (
+				845639BD1A00F8B0009FAA0B /* FightingAction.h */,
+				846F571C1A015E8900EB245C /* SkillAction.h */,
+				846F571D1A015F4100EB245C /* PhysicalAction.h */,
+				845639BC1A00F2B6009FAA0B /* Skill.h */,
+				846F57111A01101600EB245C /* Skill.m */,
+				846F571E1A01636B00EB245C /* Physical.h */,
+				846F571F1A01636B00EB245C /* Physical.m */,
+			);
+			name = FightingEngine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845639A21A00E2B5009FAA0B /* Mortal Kombat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845639AA1A00E2B5009FAA0B /* Build configuration list for PBXNativeTarget "Mortal Kombat" */;
+			buildPhases = (
+				8456399F1A00E2B5009FAA0B /* Sources */,
+				845639A01A00E2B5009FAA0B /* Frameworks */,
+				845639A11A00E2B5009FAA0B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mortal Kombat";
+			productName = "Mortal Kombat";
+			productReference = 845639A31A00E2B5009FAA0B /* Mortal Kombat */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8456399B1A00E2B5009FAA0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Borislav Boyadzhiev";
+				TargetAttributes = {
+					845639A21A00E2B5009FAA0B = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 8456399E1A00E2B5009FAA0B /* Build configuration list for PBXProject "Mortal Kombat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8456399A1A00E2B5009FAA0B;
+			productRefGroup = 845639A41A00E2B5009FAA0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845639A21A00E2B5009FAA0B /* Mortal Kombat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8456399F1A00E2B5009FAA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846F57201A01636B00EB245C /* Physical.m in Sources */,
+				845639A71A00E2B5009FAA0B /* main.m in Sources */,
+				846F57121A01101600EB245C /* Skill.m in Sources */,
+				845639AF1A00E310009FAA0B /* Fighter.m in Sources */,
+				845639B21A00E6A9009FAA0B /* Character.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		845639A81A00E2B5009FAA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		845639A91A00E2B5009FAA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		845639AB1A00E2B5009FAA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		845639AC1A00E2B5009FAA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8456399E1A00E2B5009FAA0B /* Build configuration list for PBXProject "Mortal Kombat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845639A81A00E2B5009FAA0B /* Debug */,
+				845639A91A00E2B5009FAA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845639AA1A00E2B5009FAA0B /* Build configuration list for PBXNativeTarget "Mortal Kombat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845639AB1A00E2B5009FAA0B /* Debug */,
+				845639AC1A00E2B5009FAA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8456399B1A00E2B5009FAA0B /* Project object */;
+}
