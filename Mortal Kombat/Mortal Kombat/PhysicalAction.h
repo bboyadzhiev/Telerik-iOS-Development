@@ -16,8 +16,6 @@
 
 @property float energyRetrieved;
     
-
-@property (nonatomic, strong) NSString *keyCombination;
 @property float damageInflicted;
 
 -(BOOL) actWithFighter : (Fighter *) initiator
